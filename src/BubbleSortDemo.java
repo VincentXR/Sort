@@ -11,6 +11,8 @@ public class BubbleSortDemo {
                     a[j+1] = temp;
                 }
             }
+
+
             System.out.print("第"+i+"步排序结果：");
             for(int k=0;k<a.length;k++){
                 System.out.print(" "+a[k]);
